@@ -1,0 +1,16 @@
+$ORIGIN daniela.com.
+$TTL 3H
+@       IN SOA   parcial.daniela.com. root@daniela.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      parcial.daniela.com.
+
+;host en la zona
+
+parcial IN A 192.168.50.3
+cliente IN A 192.168.50.2
+www IN CNAME parcial
+user IN CNAME cliente
