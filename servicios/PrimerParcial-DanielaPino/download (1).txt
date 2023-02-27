@@ -1,0 +1,2 @@
+Este archivo ha de descargarse con encoding gzip
+
