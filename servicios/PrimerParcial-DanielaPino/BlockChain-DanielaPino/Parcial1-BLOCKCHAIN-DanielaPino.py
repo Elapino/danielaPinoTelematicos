@@ -1,3 +1,4 @@
+#NOTA: para poder correr es necesario acomodar el identado porque es .py(sensible)
 import hashlib
 import datetime
 # Creamos la clase Block, que representa cada bloque en nuestra cadena de bloques
