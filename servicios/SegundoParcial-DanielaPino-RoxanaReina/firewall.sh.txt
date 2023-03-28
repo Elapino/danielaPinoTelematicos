@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo yum install wget -y
+sudo yum install vim -y
+
+sudo wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/s/shorewall-core-5.1.10.2-1.el7.noarch.rpm
+sudo wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/s/shorewall-5.1.10.2-1.el7.noarch.rpm
+sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum install shorewall-core -y
+sudo yum install shorewall-core-5.1.10.2-1.el7.noarch.rpm 
+sudo yum install shorewall-5.1.10.2-1.el7.noarch.rpm -y
+sudo yum install conntrack-tools libnetfilter_queue conntrack-tools ibnetfilter_conntrack -y
+sudo yum install -y perl-Digest-SHA1
+sudo yum install shorewall
+sudo yum install conntrack-tools libnetfilter_queue conntrack-tools ibnetfilter_conntrack -y
+ 
